@@ -1,0 +1,7 @@
+# Ignore these files!
+/data/*
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/Police_Data_Visualization.iml
+.idea/vcs.xml
