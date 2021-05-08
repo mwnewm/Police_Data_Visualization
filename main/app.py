@@ -2,7 +2,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import pandas as pd
-import plotly.figure_factory as ff
 import plotly.express as px
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -34,7 +33,6 @@ cheshire_pop_fig = px.bar(df_cheshire_census,
 nh_pop_fig = px.bar(df_nh_census,
                    x='Year', y='Population', color='Race',
                    title='New Hampshire Demographic Data')
-# fig.show()
 
 # Render app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -81,4 +79,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
