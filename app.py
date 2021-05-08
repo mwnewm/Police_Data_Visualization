@@ -4,7 +4,12 @@ import dash_html_components as html
 import pandas as pd
 import plotly.express as px
 
+# Set variables
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+githublink = 'https://github.com/mwnewm/Police_Data_Visualization'
+datasourcelink = 'https://ci.keene.nh.us/police/news-public-information-faqs'
+tabtitle = 'Keene Policing Data'
+pagetitle = '2020 Keene, NH Policing Data'
 
 # Import data to pandas dataframe
 df_keene_arrests2020 = pd.read_csv('data/KeeneDataCSV_arrests.csv', skiprows=None)
@@ -17,29 +22,47 @@ df_nh_census = pd.read_csv('data/NewHampshireCensusData.csv', usecols=['Race', '
 # Construct figures with plotly
 arrest_fig = px.bar(df_keene_arrests2020,
                     x='Gender', y='Number of Arrests', color='Race',
-                    title='2020 Arrests by Race and Gender')
+                    title='2020 Arrests by Race and Gender', custom_data=['Race'])
 mvs_fig = px.bar(df_keene_mvs2020,
                  x='Gender', y='Total Warnings and Citations', color='Race',
-                 title='2020 Motor Vehicle Citations and Warnings')
+                 title='2020 Motor Vehicle Citations and Warnings', custom_data=['Race'])
 stops_fig = px.bar(df_keene_stops2020,
                    x='Gender', y='Number of Stops', color='Race',
-                   title='2020 Subject Stops')
+                   title='2020 Subject Stops', custom_data=['Race'])
 keene_pop_fig = px.bar(df_keene_census,
                    x='Year', y='Population', color='Race',
-                   title='Keene, NH Demographic Data')
+                   title='Keene, NH Demographic Data', custom_data=['Race'])
 cheshire_pop_fig = px.bar(df_cheshire_census,
                    x='Year', y='Population', color='Race',
-                   title='Cheshire County Demographic Data')
+                   title='Cheshire County Demographic Data', custom_data=['Race'])
 nh_pop_fig = px.bar(df_nh_census,
                    x='Year', y='Population', color='Race',
-                   title='New Hampshire Demographic Data')
+                   title='New Hampshire Demographic Data', custom_data=['Race'])
+
+# Update hover tools
+for fig in [arrest_fig, mvs_fig, stops_fig]:
+    fig.update_traces(
+        hovertemplate="<br>".join([
+            "Number of Arrests: %{y}",
+            "Race: %{customdata[0]}"
+        ])
+    )
+
+for fig in [keene_pop_fig, cheshire_pop_fig, nh_pop_fig]:
+    fig.update_traces(
+        hovertemplate="<br>".join([
+            "Population: %{y}",
+            "Race: %{customdata[0]}"
+        ])
+    )
 
 # Render app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
+app.title=tabtitle
 
 app.layout = html.Div(children=[
-    html.H1(children='2020 Keene, NH Policing Data'),
+    html.H1(children=pagetitle),
 
     html.Div(children=[
         html.Div(children=[
@@ -74,7 +97,16 @@ app.layout = html.Div(children=[
                 figure=nh_pop_fig
             )],
             style={'columnCount': 2}
-        )
+        ),
+
+        html.Div(children=[
+            html.H4(children=
+                    html.A('Code on Github', href=githublink)
+                    ),
+            html.H4(children=
+                    html.A('Data Source', href=datasourcelink)
+                    )
+        ]),
     ]),
 
 ])
