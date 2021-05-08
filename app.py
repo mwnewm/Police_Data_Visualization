@@ -7,12 +7,12 @@ import plotly.express as px
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 # Import data to pandas dataframe
-df_keene_arrests2020 = pd.read_csv('../data/KeeneDataCSV_arrests.csv', skiprows=None)
-df_keene_mvs2020 = pd.read_csv('../data/KeeneDataCSV_MVS.csv', skiprows=None)
-df_keene_stops2020 = pd.read_csv('../data/KeeneDataCSV_subjectstops.csv', skiprows=None)
-df_keene_census = pd.read_csv('../data/KeeneCensusData.csv', usecols=['Race', 'Year', 'Population', 'share'], skiprows=None)
-df_cheshire_census = pd.read_csv('../data/CheshireCensusData.csv', usecols=['Race', 'Year', 'Population'], skiprows=None)
-df_nh_census = pd.read_csv('../data/NewHampshireCensusData.csv', usecols=['Race', 'Year', 'Population'], skiprows=None)
+df_keene_arrests2020 = pd.read_csv('data/KeeneDataCSV_arrests.csv', skiprows=None)
+df_keene_mvs2020 = pd.read_csv('data/KeeneDataCSV_MVS.csv', skiprows=None)
+df_keene_stops2020 = pd.read_csv('data/KeeneDataCSV_subjectstops.csv', skiprows=None)
+df_keene_census = pd.read_csv('data/KeeneCensusData.csv', usecols=['Race', 'Year', 'Population', 'share'], skiprows=None)
+df_cheshire_census = pd.read_csv('data/CheshireCensusData.csv', usecols=['Race', 'Year', 'Population'], skiprows=None)
+df_nh_census = pd.read_csv('data/NewHampshireCensusData.csv', usecols=['Race', 'Year', 'Population'], skiprows=None)
 
 # Construct figures with plotly
 arrest_fig = px.bar(df_keene_arrests2020,
@@ -79,4 +79,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
