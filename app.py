@@ -36,6 +36,7 @@ nh_pop_fig = px.bar(df_nh_census,
 
 # Render app
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1(children='2020 Keene, NH Policing Data'),
