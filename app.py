@@ -101,7 +101,7 @@ app.layout = html.Div(children=[
 
         html.Div(children=[
             html.H4(children=
-                    html.A('Code on Github', href=githublink)
+                    html.A('Github Code', href=githublink)
                     ),
             html.H4(children=
                     html.A('Data Source', href=datasourcelink)
