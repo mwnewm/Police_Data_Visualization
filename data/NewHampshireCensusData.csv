@@ -1,0 +1,85 @@
+ID Race,Race,ID Ethnicity,Ethnicity,ID Year,Year,Hispanic Population Moe,Geography,ID Geography,Slug Geography,Population,share
+0,White Alone,0,Not Hispanic or Latino,2018,2018,1255,New Hampshire,04000US33,new-hampshire,1217767,89.78%
+0,White Alone,1,Hispanic or Latino,2018,2018,2986,New Hampshire,04000US33,new-hampshire,36164,2.67%
+1,Black or African American Alone,0,Not Hispanic or Latino,2018,2018,2145,New Hampshire,04000US33,new-hampshire,18950,1.40%
+1,Black or African American Alone,1,Hispanic or Latino,2018,2018,1729,New Hampshire,04000US33,new-hampshire,4482,0.33%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2018,2018,1383,New Hampshire,04000US33,new-hampshire,3538,0.26%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2018,2018,31,New Hampshire,04000US33,new-hampshire,24,0.00%
+3,Asian Alone,0,Not Hispanic or Latino,2018,2018,2332,New Hampshire,04000US33,new-hampshire,35901,2.65%
+3,Asian Alone,1,Hispanic or Latino,2018,2018,181,New Hampshire,04000US33,new-hampshire,147,0.01%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2018,2018,484,New Hampshire,04000US33,new-hampshire,473,0.03%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2018,2018,69,New Hampshire,04000US33,new-hampshire,42,0.00%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2018,2018,969,New Hampshire,04000US33,new-hampshire,1860,0.14%
+5,Some Other Race Alone,1,Hispanic or Latino,2018,2018,2532,New Hampshire,04000US33,new-hampshire,7153,0.53%
+6,Two or More Races,0,Not Hispanic or Latino,2018,2018,2934.43095,New Hampshire,04000US33,new-hampshire,25321,1.87%
+6,Two or More Races,1,Hispanic or Latino,2018,2018,1494.36274,New Hampshire,04000US33,new-hampshire,4636,0.34%
+0,White Alone,0,Not Hispanic or Latino,2017,2017,1395,New Hampshire,04000US33,new-hampshire,1212790,90.32%
+0,White Alone,1,Hispanic or Latino,2017,2017,2750,New Hampshire,04000US33,new-hampshire,36961,2.75%
+1,Black or African American Alone,0,Not Hispanic or Latino,2017,2017,1508,New Hampshire,04000US33,new-hampshire,18023,1.34%
+1,Black or African American Alone,1,Hispanic or Latino,2017,2017,2511,New Hampshire,04000US33,new-hampshire,4386,0.33%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2017,2017,559,New Hampshire,04000US33,new-hampshire,1500,0.11%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2017,2017,245,New Hampshire,04000US33,new-hampshire,285,0.02%
+3,Asian Alone,0,Not Hispanic or Latino,2017,2017,1901,New Hampshire,04000US33,new-hampshire,35602,2.65%
+3,Asian Alone,1,Hispanic or Latino,2017,2017,102,New Hampshire,04000US33,new-hampshire,61,0.00%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2017,2017,272,New Hampshire,04000US33,new-hampshire,337,0.03%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2017,2017,373,New Hampshire,04000US33,new-hampshire,223,0.02%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2017,2017,520,New Hampshire,04000US33,new-hampshire,743,0.06%
+5,Some Other Race Alone,1,Hispanic or Latino,2017,2017,1235,New Hampshire,04000US33,new-hampshire,3775,0.28%
+6,Two or More Races,0,Not Hispanic or Latino,2017,2017,2410.318029,New Hampshire,04000US33,new-hampshire,23407,1.74%
+6,Two or More Races,1,Hispanic or Latino,2017,2017,1525.89187,New Hampshire,04000US33,new-hampshire,4702,0.35%
+0,White Alone,0,Not Hispanic or Latino,2016,2016,980,New Hampshire,04000US33,new-hampshire,1211076,90.73%
+0,White Alone,1,Hispanic or Latino,2016,2016,2565,New Hampshire,04000US33,new-hampshire,36079,2.70%
+1,Black or African American Alone,0,Not Hispanic or Latino,2016,2016,1602,New Hampshire,04000US33,new-hampshire,15837,1.19%
+1,Black or African American Alone,1,Hispanic or Latino,2016,2016,689,New Hampshire,04000US33,new-hampshire,834,0.06%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2016,2016,748,New Hampshire,04000US33,new-hampshire,1336,0.10%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2016,2016,122,New Hampshire,04000US33,new-hampshire,114,0.01%
+3,Asian Alone,0,Not Hispanic or Latino,2016,2016,2250,New Hampshire,04000US33,new-hampshire,32455,2.43%
+3,Asian Alone,1,Hispanic or Latino,2016,2016,286,New Hampshire,04000US33,new-hampshire,224,0.02%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2016,2016,87,New Hampshire,04000US33,new-hampshire,66,0.00%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2016,2016,187,New Hampshire,04000US33,new-hampshire,0,0.00%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2016,2016,1020,New Hampshire,04000US33,new-hampshire,1645,0.12%
+5,Some Other Race Alone,1,Hispanic or Latino,2016,2016,1951,New Hampshire,04000US33,new-hampshire,6412,0.48%
+6,Two or More Races,0,Not Hispanic or Latino,2016,2016,2813.005866,New Hampshire,04000US33,new-hampshire,25109,1.88%
+6,Two or More Races,1,Hispanic or Latino,2016,2016,1064.855389,New Hampshire,04000US33,new-hampshire,3608,0.27%
+0,White Alone,0,Not Hispanic or Latino,2015,2015,667,New Hampshire,04000US33,new-hampshire,1210017,90.94%
+0,White Alone,1,Hispanic or Latino,2015,2015,1954,New Hampshire,04000US33,new-hampshire,35245,2.65%
+1,Black or African American Alone,0,Not Hispanic or Latino,2015,2015,1407,New Hampshire,04000US33,new-hampshire,18495,1.39%
+1,Black or African American Alone,1,Hispanic or Latino,2015,2015,1458,New Hampshire,04000US33,new-hampshire,2797,0.21%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2015,2015,456,New Hampshire,04000US33,new-hampshire,1169,0.09%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2015,2015,391,New Hampshire,04000US33,new-hampshire,392,0.03%
+3,Asian Alone,0,Not Hispanic or Latino,2015,2015,1932,New Hampshire,04000US33,new-hampshire,33774,2.54%
+3,Asian Alone,1,Hispanic or Latino,2015,2015,263,New Hampshire,04000US33,new-hampshire,240,0.02%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2015,2015,231,New Hampshire,04000US33,new-hampshire,254,0.02%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2015,2015,184,New Hampshire,04000US33,new-hampshire,0,0.00%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2015,2015,709,New Hampshire,04000US33,new-hampshire,1204,0.09%
+5,Some Other Race Alone,1,Hispanic or Latino,2015,2015,1297,New Hampshire,04000US33,new-hampshire,4459,0.34%
+6,Two or More Races,0,Not Hispanic or Latino,2015,2015,2370.800076,New Hampshire,04000US33,new-hampshire,21340,1.60%
+6,Two or More Races,1,Hispanic or Latino,2015,2015,527.8872986,New Hampshire,04000US33,new-hampshire,1222,0.09%
+0,White Alone,0,Not Hispanic or Latino,2014,2014,929,New Hampshire,04000US33,new-hampshire,1209818,91.18%
+0,White Alone,1,Hispanic or Latino,2014,2014,2457,New Hampshire,04000US33,new-hampshire,29592,2.23%
+1,Black or African American Alone,0,Not Hispanic or Latino,2014,2014,1843,New Hampshire,04000US33,new-hampshire,15418,1.16%
+1,Black or African American Alone,1,Hispanic or Latino,2014,2014,960,New Hampshire,04000US33,new-hampshire,1591,0.12%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2014,2014,670,New Hampshire,04000US33,new-hampshire,2132,0.16%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2014,2014,180,New Hampshire,04000US33,new-hampshire,207,0.02%
+3,Asian Alone,0,Not Hispanic or Latino,2014,2014,2261,New Hampshire,04000US33,new-hampshire,33689,2.54%
+3,Asian Alone,1,Hispanic or Latino,2014,2014,305,New Hampshire,04000US33,new-hampshire,285,0.02%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2014,2014,312,New Hampshire,04000US33,new-hampshire,437,0.03%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2014,2014,182,New Hampshire,04000US33,new-hampshire,0,0.00%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2014,2014,480,New Hampshire,04000US33,new-hampshire,1027,0.08%
+5,Some Other Race Alone,1,Hispanic or Latino,2014,2014,1412,New Hampshire,04000US33,new-hampshire,5225,0.39%
+6,Two or More Races,0,Not Hispanic or Latino,2014,2014,2596.156005,New Hampshire,04000US33,new-hampshire,21840,1.65%
+6,Two or More Races,1,Hispanic or Latino,2014,2014,1728.200509,New Hampshire,04000US33,new-hampshire,5552,0.42%
+0,White Alone,0,Not Hispanic or Latino,2013,2013,2045,New Hampshire,04000US33,new-hampshire,1209037,91.35%
+0,White Alone,1,Hispanic or Latino,2013,2013,2687,New Hampshire,04000US33,new-hampshire,27720,2.09%
+1,Black or African American Alone,0,Not Hispanic or Latino,2013,2013,1777,New Hampshire,04000US33,new-hampshire,13319,1.01%
+1,Black or African American Alone,1,Hispanic or Latino,2013,2013,1559,New Hampshire,04000US33,new-hampshire,2781,0.21%
+2,American Indian & Alaska Native Alone,0,Not Hispanic or Latino,2013,2013,867,New Hampshire,04000US33,new-hampshire,2544,0.19%
+2,American Indian & Alaska Native Alone,1,Hispanic or Latino,2013,2013,623,New Hampshire,04000US33,new-hampshire,538,0.04%
+3,Asian Alone,0,Not Hispanic or Latino,2013,2013,1789,New Hampshire,04000US33,new-hampshire,31115,2.35%
+3,Asian Alone,1,Hispanic or Latino,2013,2013,87,New Hampshire,04000US33,new-hampshire,41,0.00%
+4,Native Hawaiian & Other Pacific Islander Alone,0,Not Hispanic or Latino,2013,2013,129,New Hampshire,04000US33,new-hampshire,106,0.01%
+4,Native Hawaiian & Other Pacific Islander Alone,1,Hispanic or Latino,2013,2013,185,New Hampshire,04000US33,new-hampshire,0,0.00%
+5,Some Other Race Alone,0,Not Hispanic or Latino,2013,2013,2026,New Hampshire,04000US33,new-hampshire,2716,0.21%
+5,Some Other Race Alone,1,Hispanic or Latino,2013,2013,2351,New Hampshire,04000US33,new-hampshire,8153,0.62%
+6,Two or More Races,0,Not Hispanic or Latino,2013,2013,2772.356398,New Hampshire,04000US33,new-hampshire,22817,1.72%
+6,Two or More Races,1,Hispanic or Latino,2013,2013,1215.770126,New Hampshire,04000US33,new-hampshire,2572,0.19%
