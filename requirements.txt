@@ -5,6 +5,6 @@ plotly==4.5.0
 pandas==1.2.4
 
 Flask==2.3.2
-gunicorn==19.9.0
+gunicorn==22.0.0
 
 
